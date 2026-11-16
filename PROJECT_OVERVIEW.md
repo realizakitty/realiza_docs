@@ -71,7 +71,7 @@ go test ./...
 
 ## 品牌与桌面图标
 
-已将批准的 `assets/realiza-icon-v1.png` 应用于前台页头/页脚和前后台 favicon。前台提供 16/32px PNG、多尺寸 ICO、180px Apple touch icon，以及 192/512px 普通图标和 512px maskable 图标；`site.webmanifest` 设置桌面名称 Realiza、独立窗口模式和品牌主题色。`assets/export-icons.py` 可重新导出尺寸。桌面图标资源已检查，真实 iOS/Android 添加体验仍需真机确认；手机访问正式网站需 HTTPS，手机 localhost 指向手机自身。当前不提供离线缓存。
+品牌图标现已统一为猫咪图标，已替换前台页头/页脚、登录页、前后台 favicon 和文档首页；对外资源使用 cat 前缀文件名以更新缓存。前台提供 16/32px PNG、多尺寸 ICO、180px Apple touch icon，以及 192/512px 普通图标和 512px maskable 图标；`site.webmanifest` 设置桌面名称 Realiza、独立窗口模式和品牌主题色。`assets/export-icons.py` 可重新导出尺寸。桌面图标资源已检查，真实 iOS/Android 添加体验仍需真机确认；手机访问正式网站需 HTTPS，手机 localhost 指向手机自身。当前不提供离线缓存。
 
 ## 用户系统与超级管理员
 
